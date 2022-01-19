@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.unit_converter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/images"
+        android:label="@string/Data_Converter"
+        android:roundIcon="@drawable/images"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Unit_Converter">
+        <activity android:name=".curruncy"  />
+        <activity android:name=".feedback" />
+        <activity android:name=".contact" />
+        <activity android:name=".about" />
+        <activity android:name=".percentage"  />
+        <activity android:name=".dig"  />
+        <activity android:name=".time" />
+        <activity android:name=".unit" />
+
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

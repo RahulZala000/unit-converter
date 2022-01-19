@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Unit_Converter</string>
+    <string name="DATA_CONVERTER">DATA_CONVERTER</string>
+    <string name="Data_Converter">Data Converter</string>
+    <string-array name="dig">
+        <item>MegaByte</item>
+        <item>KiloByte</item>
+        <item>Byte</item>
+        <item>TeraByte</item>
+    </string-array>
+    <string-array name="curr">
+        <item>Indian Rupees</item>
+        <item>US Dollar</item>
+        <item>Pound</item>
+    </string-array>
+    <string-array name="unit">
+        <item>Mile</item>
+        <item>Inch</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+    </string-array>
+    <string-array name="time">
+        <item>Second</item>
+        <item>Minute</item>
+        <item>Hour</item>
+        <item>MilliSecond</item>
+    </string-array>
+    <string-array name="per">
+        <item>CPI</item>
+        <item>SPI</item>
+        <item>Percentage</item>
+    </string-array>
+</resources>

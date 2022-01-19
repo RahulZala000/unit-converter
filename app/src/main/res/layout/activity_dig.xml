@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dig"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3C781"
+    android:focusableInTouchMode="true"
+    tools:context=".dig"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <EditText
+        android:id="@+id/a1"
+        android:layout_width="224dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="128dp"
+        android:backgroundTint="#FDF9F9"
+        android:defaultFocusHighlightEnabled="true"
+        android:ems="10"
+        android:focusable="auto"
+        android:focusedByDefault="true"
+        android:hint="Enter the value"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,RtlCompat" />
+
+
+    <EditText
+        android:id="@+id/a2"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="268dp"
+        android:backgroundTint="#F3E9E9"
+        android:editable="false"
+        android:hint="ans"
+        android:keyboardNavigationCluster="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="68dp"
+        android:background="#4B969F"
+        android:text="DIGITAL CONVERTER"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/a1"
+        app:layout_constraintEnd_toEndOf="@id/a2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/dig_f"
+        android:layout_width="141dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#C36C6C"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toBottomOf="@+id/a1"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/dig_t"
+        android:layout_width="141dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#C36C6C"
+        android:spinnerMode="dropdown"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toBottomOf="@+id/a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ans"
+        android:layout_width="117dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#634C24"
+        android:onClick="sub"
+        android:text="Convert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a2"
+        app:layout_constraintVertical_bias="0.331"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

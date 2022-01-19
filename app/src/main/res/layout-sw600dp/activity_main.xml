@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#DFBB61"
+    android:baselineAligned="false"
+    android:foregroundTint="#710A0A"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="125dp"
+        android:backgroundTint="#634C24"
+        android:onClick="per_cl"
+        android:text="PERCENTAGE"
+        tools:ignore="MissingConstraints,UsingOnClickInXml"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/unit"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#634C24"
+        android:onClick="unit_cl"
+        android:text="Unit"
+        tools:ignore="MissingConstraints,UsingOnClickInXml"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <Button
+        android:id="@+id/time"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#634C24"
+        android:onClick="time_cl"
+        android:text="TIME"
+        tools:ignore="MissingConstraints,OnClick,UsingOnClickInXml"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <Button
+        android:id="@+id/digital"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#634C24"
+        android:onClick="dig_cl"
+        android:text="DIGITAL"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/curruncy"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#634C24"
+        android:onClick="curr_cl"
+        android:text="CURRUNCY"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+</LinearLayout>
